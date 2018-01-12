@@ -16,11 +16,11 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
-public class IDcardTest extends TEST{
+public class IDcardTest {
 
     public static void main(String[] args) {
 
-        IDcard id = parseIdCardFace("http://img.yuntongauto.com/M00/00/BF/wKgWgVoKYomAZjt_AAJgfi3Aljg225.png");
+        IDcard id = IDcard.parseIdCardFace("url");
         if(id!=null)
             System.out.println(id.getName()+" "+id.getNum()+" "+id.getSex()+" "+id.getAddress()+" "+id.getNationality()+" "+id.getBirth());
     }
