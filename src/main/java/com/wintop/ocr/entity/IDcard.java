@@ -1,4 +1,4 @@
-package com.wintop.insurance.util;
+package com.wintop.ocr.entity;
 
 import java.io.Serializable;
 

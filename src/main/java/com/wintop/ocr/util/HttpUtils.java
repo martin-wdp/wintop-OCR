@@ -1,4 +1,4 @@
-package com.wintop.insurance.util;
+package com.wintop.ocr.util;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.HttpResponse;
